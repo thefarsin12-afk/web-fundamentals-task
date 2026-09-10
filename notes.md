@@ -130,11 +130,17 @@ url:localhost:5000/movies/2/
 method:get  
 
 `http_request for update movie`  
-url:localhost:5000/movies/2/  
+url:localhost:5000/movies/2/    
 method:put  
 body{  
+    title:Jhon wick  
+    year:2020  
+    language:Engilsh  
+    run_time:160  
     
 }  
 `http_request for delete movie`  
+url(localhost:5000/movies/2)  
+method:delete  
 
  
