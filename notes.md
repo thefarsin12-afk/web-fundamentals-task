@@ -151,10 +151,12 @@ patient_id    patient_name  phone_number   assigned_doctor   department    appoi
      3           Reena       8721038497       Dr.Sheena       Skin            14.03.2026      Processing  250 
     
 
-`http_request for adding new patients`  
+`http_request for adding new patients`
+
 url(lacalhost:1500/patients/)  
 method:Post  
-body{  
+body{
+
     patient_name:Ahemmad  
     phone_number:8913986532    
     assigned_doctor:Dr Thankachan   
@@ -165,14 +167,17 @@ body{
 }
 
 `http_request for list all patients`  
+
 url(localhost:1500/patients/)  
 method:Get  
 
-`http_request for fetching patients detail`  
+`http_request for fetching patients detail` 
+
 uel(localhost:1500/patients/3/)  
 method:Get  
 
 `http_request for update pateints`  
+
 url(localhost:1500/patients/2/)  
 method:Patch(  
 
