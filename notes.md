@@ -122,7 +122,7 @@ body{
 }
 
 `http_request for list all movie`  
-url:localhost:5000/movies  
+url:localhost:5000/movies/  
 method:list  
 
 `http_request for fetching movie detail`  
@@ -143,11 +143,45 @@ body{
 url(localhost:5000/movies/2)  
 method:delete  
 
-
-
+--Hospital
 patient_id    patient_name  phone_number   assigned_doctor   department    appointment_date   status     fees  
 
      1           Jhon        9302948593       Dr.Alex         Fitness         12.03.2026      Pending     230  
      2           Adham       8557553243       Dr.lallu        Ortho           13.03.2026      Complete    250 
      3           Reena       8721038497       Dr.Sheena       Skin            14.03.2026      Processing  250 
     
+
+`http_request for adding new patients`  
+url(lacalhost:1500/patients/)  
+method:Post  
+body{  
+    patient_name:Ahemmad  
+    phone_number:8913986532    
+    assigned_doctor:Dr Thankachan   
+    department:Cardio  
+    appointment_date:14.04.2026  
+    status:Complete  
+    fees:260  
+}
+
+`http_request for list all patients`  
+url(localhost:1500/patients/)  
+method:Get  
+
+`http_request for fetching patients detail`  
+uel(localhost:1500/patients/3/)  
+method:Get  
+
+`http_request for update pateints`  
+url(localhost:1500/patients/2/)  
+method:Patch(  
+
+    assigned_doctor:Dr Devichan  
+    department:Deititian  
+)
+
+`http_request for delete pateints`
+
+url(localhost:1500/patients/4/)  
+method:Delete  
+
