@@ -143,7 +143,7 @@ body{
 url(localhost:5000/movies/2)  
 method:delete  
 
---Hospital
+--Hospital  
 patient_id    patient_name  phone_number   assigned_doctor   department    appointment_date   status     fees  
 
      1           Jhon        9302948593       Dr.Alex         Fitness         12.03.2026      Pending     230  
