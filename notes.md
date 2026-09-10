@@ -143,4 +143,11 @@ body{
 url(localhost:5000/movies/2)  
 method:delete  
 
- 
+
+
+patient_id    patient_name  phone_number   assigned_doctor   department    appointment_date   status     fees  
+
+     1           Jhon        9302948593       Dr.Alex         Fitness         12.03.2026      Pending     230  
+     2           Adham       8557553243       Dr.lallu        Ortho           13.03.2026      Complete    250 
+     3           Reena       8721038497       Dr.Sheena       Skin            14.03.2026      Processing  250 
+    
